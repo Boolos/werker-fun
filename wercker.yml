@@ -40,7 +40,7 @@ build:
         code: |
           echo "Done!!!"
 
-    - internal/store-container:
+    - internal/store-container
         
 
 dev:
