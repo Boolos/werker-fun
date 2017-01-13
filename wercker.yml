@@ -39,3 +39,13 @@ build:
         name: Do da thang
         code: |
           echo "Done!!!"
+
+    - internal/store-container:
+        
+
+dev:
+  steps:
+      - npm-install
+      - internal/watch:
+          code: node index.js
+          reload: true
